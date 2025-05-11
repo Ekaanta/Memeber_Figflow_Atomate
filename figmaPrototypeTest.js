@@ -36,11 +36,7 @@ test('Check if Sign In works and the Home page opens', async t => {
         }
     }
     
-    // Now try a more direct approach
-    // Instead of trying to simulate real interaction, let's try to check
-    // if certain visual elements are present that would indicate success
     
-    // Wait a bit more for any dynamic content to load
     await t.wait(5000);
     
     // Try to take a screenshot to see what's actually visible
